@@ -132,7 +132,8 @@ export default function TopNav({ signOut, setAppTheme }) {
             <TopNavigation
                 identity={{
                     href: '',
-                    title: 'AWS HealthImaging Sample Viewer',
+                    title: 'Delloite HealthImaging Sample Viewer',
+                    logo:{ src:"/deloitte_logo.png", alt:"Delloite HealthImaging Sample Viewer" }
                 }}
                 utilities={navUtils}
                 i18nStrings={{
